@@ -1,0 +1,49 @@
+body{
+  background-image: linear-gradient(to right,#9BABB8,#EEE3CB,#D7C0AE,#967E76);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.App{
+  display: flex;
+  justify-content: space-between;
+}
+.row1 label,.row2 label,.row3 label{
+  display: block;
+  padding: 10px;
+}
+.row1,.row2,.row3{
+  text-align: center;
+}
+.App1{
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 20px;
+  width: 50%;
+  margin-left: 330px;
+  margin-top: 100px;
+  padding: 30px;
+}
+h2{
+  text-align: center;
+}
+input,select{
+  border: 2px solid black;
+  width: 200px;
+  border-radius: 5px;
+  padding: 5px;
+}
+p{
+  margin-left: 30px;
+}
+button{
+  margin-left: 320px;
+  margin-top: 20px;
+  border: 1px solid green;
+  background-color: green;
+  padding: 10px;
+  border-radius: 10px;
+}
+.error{
+  color: red;
+  font-size:10px;
+  margin-top:-5px;
+}
